@@ -1,0 +1,26 @@
+{
+  "resourceType": "Observation",
+  "id":"123",
+  "status":"final",
+  "code":{
+    "coding": [
+      {
+        "system":"http://loinc.org",
+         "code":"15074-8",
+         "display": "Glucose [Moles/volume] in Blood"
+}
+ ],
+"text":"Fasting Blood Glucose"
+},
+"subject":{
+  "reference":"Patient/123",
+  "display":"Jane Doe"
+},
+"effectiveDateTime":"2024-07-15",
+"valueQuantitiy":{
+  "value":110,
+   "unit":"mg/dl",
+   "system":"http://unitsofmeasure.org",
+   "code":"mg/dl"
+}
+}

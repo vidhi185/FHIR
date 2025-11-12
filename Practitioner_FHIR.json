@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id":"example-123",
+  "name":[
+          {
+            "use":"official",
+            "family":"Reed",
+            "given":["Evelyn"]
+            }
+             ],
+  "telecome":[
+              {
+               "systme":"phone",
+               "value":"555-300-4000",
+               "use":"work"
+               }
+                 ],
+  "gender":"female"
+}

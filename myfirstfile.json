@@ -1,0 +1,33 @@
+{
+    "Student Name": "Vidhi Panchal",
+    "Program": "PGDM HHM",
+    "Specialisation": {
+        "Health IT":"Yes",
+        "Hospital":"No",
+        "Pharmaceutical":"No",
+        "Health":"No"
+    },
+    "Semester":null,
+    "Roll Number":"IIHMRB2024911",
+    "Type of Student":{
+        "Full Time":"True",
+        "Part Time":"False"
+                   }               
+                }
+    ,"$Schema":{
+        "Student Name":"Shyam",
+        "Program":"PGDM HHM",
+        "Specialisation": {
+            "Health IT":"Yes",
+            "Hospital":"No",
+            "Pharmaceutical":"No",
+            "Health":"Yes"
+        },
+        "Semester":null,
+        "Roll Number":"IIHMRB2024911",
+        "Type of Student":{
+            "Full Time":"True",
+            "Part Time":"False"
+        }
+    } 
+}

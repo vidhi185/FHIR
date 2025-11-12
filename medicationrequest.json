@@ -1,0 +1,27 @@
+{
+  "resourceType": "MedicationRequest",
+"status": "active",
+"intent": "order",
+"medicationCodeableConcept": {
+  "coding": [
+    {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "860975",
+      "display": "Metformin 500mg Oral Tablet"
+    }
+  ],
+  "text": "Metformin 500mg"
+},
+"subject": {
+  "reference": "Patient/123"
+},
+"authoredOn": "2024-07-18",
+"requester": {
+  "reference": "Practitioner/789"
+},
+"dosageInstruction": [
+  {
+    "text": "Take one tablet by mouth twice daily."
+  }
+]
+}
